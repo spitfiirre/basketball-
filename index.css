@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "cursed-family";
+  src: url("CursedTimerUlil-Aznm.ttf");
+}
+@font-face {
+  font-family: "sony-cam";
+  src: url("sonycam-original.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #231d4d;
+    color: wheat;
+    display: flex;
+    font-size: 45px;
+    justify-content: center;
+    
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    text-align: center; 
+    font-family: "sony-cam";
+    letter-spacing: 10px
+
+}
+
+.home, .guest {
+    
+}
+
+.score-show {
+    background: black; 
+    padding: 100px 20px;
+    border: 15px dotted orange; 
+    border-radius: 30%;
+    font-family: 'cursed-family';
+    font-size: 130px;
+    color: #F94F6D;
+}
+
+.button-one,
+.button-two,
+.button-three {
+    
+    background: #2c255e; 
+    padding: 20px;
+    border: 5px dotted orange; 
+    border-radius: 10%;
+    font-family: "sony-cam";
+    padding: 33px;
+}
+.button-one {
+     color: orange;
+}
+.button-two {
+    color: #F94F6D;
+}
+.button-three {
+    color: royalblue;
+}
+#home-title, #guest-title {
+    
+    font-size: 80px;
+    background: #2c255e;
+    border: 20px solid #2c255e;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+#ball {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin: 10;
+}
