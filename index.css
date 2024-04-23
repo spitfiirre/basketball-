@@ -42,7 +42,7 @@ body {
     border: 15px dotted orange; 
     border-radius: 30%;
     font-family: 'cursed-family';
-    font-size: 130px;
+    font-size: 170px;
     color: #F94F6D;
 }
 
@@ -55,7 +55,7 @@ body {
     border: 5px dotted orange; 
     border-radius: 10%;
     font-family: "sony-cam";
-    padding: 33px;
+    margin-bottom: 33px;
 }
 .button-one {
      color: orange;
